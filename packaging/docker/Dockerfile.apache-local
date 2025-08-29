@@ -1,4 +1,4 @@
-FROM harbor.zierhut-it.de/public/php:8.0-xdebug
+FROM registry.zierhut-it.de/internal/php:8.0-xdebug
 
 ## Change uid mapping for linux/osx
 ARG USER_UID=1000

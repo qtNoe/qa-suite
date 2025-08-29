@@ -9,7 +9,6 @@
 
     chdir(realpath(__DIR__));
     require_once "vendor/autoload.php";
-    require_once "z_framework/main.php";
 
     //z_framework init
     $z_framework = new z_framework();
