@@ -1,5 +1,14 @@
 {
+    "repositories": [
+        {
+            "type": "path",
+            "url": "_framework",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "require": {
-        "zubzet/framework": "0.11.0"
+        "zubzet/framework": "1.0.0"
     }
 }
