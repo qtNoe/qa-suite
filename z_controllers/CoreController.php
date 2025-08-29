@@ -82,10 +82,6 @@
             return $res->render("core/permission");
         }
 
-        public function action_localization(Request $req, Response $res) {
-            return $res->render("core/localization.php");
-        }
-
         public function action_configuration(Request $req, Response $res) {
             echo ($res->getBooterSettings("custom_value"));
         }
